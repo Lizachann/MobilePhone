@@ -85,10 +85,10 @@ public class LockScreen {
                 });
                 frame.add(home);
 
-                l1 = new JLabel("Powered by RonteasBanh ");
+                l1 = new JLabel("Powered by Group6 ");
                 l1.setFont(new Font("Verdana",Font.BOLD,15));
-                l1.setBounds(60,400,250,50);
-                l1.setForeground(new Color(0xFF0000));
+                l1.setBounds(80,390,250,50);
+                l1.setForeground(new Color(0x0048FF));
                 frame.add(l1);
 
                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

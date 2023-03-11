@@ -125,7 +125,7 @@ public class TimerClock implements ActionListener{
         });
 
         startButton.addActionListener(this);
-        if(secondInput==0&&minuteInput==0&&hourInput==0){
+        if((secondInput==0&&minuteInput==0&&hourInput==0)){
             startButton.setEnabled(false);
         }
 
